@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Turma Online X | X-end | Semana X | 202X | Professora X
+Turma Online On34 | Python | Semana 06 | 2024 | <a href="https://www.linkedin.com/in/jessmitiko/" target="_blank" rel="noopener noreferrer">Professora Jessica Mitiko</a>
 
 ### Instruções
 Antes de começar, vamos organizar nosso setup.

@@ -2,7 +2,7 @@
   <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
 </h1>
 
-# Tema da Aula
+# Lidando com arquivos, pacotes e módulos
 
 Turma Online On34 | Python | Semana 06 | 2024 | <a href="https://www.linkedin.com/in/jessmitiko/" target="_blank" rel="noopener noreferrer">Professora Jessica Mitiko</a>
 

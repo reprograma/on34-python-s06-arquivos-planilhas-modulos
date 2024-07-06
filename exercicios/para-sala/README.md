@@ -1,10 +1,42 @@
 # Exercício de Sala 🏫  
 
-## Nome do Exercicio
+## ETL com Google Sheets e python
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+- **Explicação do exercício**: Vamos explorar os dados de acessos ao nosso site para os meses de Abril e Maio, iremos tratar esses dados no Google Sheets e depois unificarmos ambos já devidamente tratados utilizando o módulo `csv` com python.
+
+  Em resumo faremos:
+  - A importação dos CSVs em um Google Sheets;
+  - Exploração e limpeza desses dados dentro da nossa planilha;
+  - Exportação dos nossos dados já devidamente tratados no formato CSV;
+  - União dos 2 CSVs utilizando o módulo `csv` + python.
+
+
+**Como realizar a leitura de um CSV com python**:
+   ```python
+   import csv
+
+   with open('produtos.csv', newline='', encoding='utf-8') as csvfile:
+       leitor = csv.reader(csvfile)
+       for linha in leitor:
+           print(linha)
+   ```
+
+**Como realizar a escrita dos dados em um CSV**:
+   ```python
+   import csv
+
+   funcionarios = [
+       [1, 'Ana', 'Financeiro'],
+       [2, 'Carlos', 'TI'],
+       [3, 'Beatriz', 'RH']
+   ]
+
+   with open('funcionarios.csv', 'w', newline='', encoding='utf-8') as csvfile:
+       escritor = csv.writer(csvfile)
+       escritor.writerow(['id', 'nome', 'departamento'])
+       escritor.writerows(funcionarios)
+   ```
+
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!

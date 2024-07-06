@@ -234,9 +234,9 @@ Em resumo, o ETL é um processo crucial para transformar dados brutos de várias
 * [Exercícios Extras](https://www.hashtagtreinamentos.com/exercicios-de-excel-2)
 
 ### Material da aula 
-* <a href="https://docs.google.com/spreadsheets/d/1frE0FyyEdgyPXyk34iIeyRQqZUnKphlBHhxQ1ZjqTwY/copy" target="_blank">Planilha para cópia aqui!</a>
-* <a href="https://github.com/reprograma/on34-python-s06-arquivos-pacotes-modulos/blob/main/material/notas_alunos.csv" target="_blank">CSV para aula</a>
-* <a href="http://sheets.new/" target="_blank">Para criar uma planilha em branco clique aqui!</a>
+* <a href="https://external.ink?to=https://docs.google.com/spreadsheets/d/1frE0FyyEdgyPXyk34iIeyRQqZUnKphlBHhxQ1ZjqTwY/copy" target="_blank">Planilha para cópia aqui!</a>
+* <a href="https://external.ink?to=https://github.com/reprograma/on34-python-s06-arquivos-pacotes-modulos/blob/main/material/notas_alunos.csv" target="_blank">CSV para aula</a>
+* <a href="https://external.ink?to=http://sheets.new/" target="_blank">Para criar uma planilha em branco clique aqui!</a>
 
 <p align="center">
 Desenvolvido com :purple_heart:  

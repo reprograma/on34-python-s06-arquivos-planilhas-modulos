@@ -2,7 +2,7 @@
   <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
 </h1>
 
-# Lidando com arquivos, planilhas e módulos (Em desenvolvimento)
+# Lidando com arquivos, planilhas e módulos
 
 Turma Online On34 | Python | Semana 06 | 2024 | <a href="https://www.linkedin.com/in/jessmitiko/" target="_blank" rel="noopener noreferrer">Professora Jessica Mitiko</a>
 
@@ -11,7 +11,6 @@ Antes de começar, vamos organizar nosso setup.
 * Fork esse repositório 
 * Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
 * Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras intrucoes caso necessario] !!!
 
 ### Resumo
 O que veremos na aula de hoje?
@@ -41,18 +40,22 @@ O que veremos na aula de hoje?
    * `HLOOKUP`
    * `MATCH`
    * `INDEX`
-2. [Extra: Tabela Dinâmica](#tema3-topico2) !!!
+2. [Extra: Tabela Dinâmica](#tema3-topico2)
+   * [O que é uma Tabela Dinâmica?](#tema3-topico2-subtopico1)
+   * [Importância das Tabelas Dinâmicas](#tema3-topico2-subtopico2)
+   * [Exemplo de aplicação das Tabelas Dinâmicas](#tema3-topico2-subtopico3)
 ### <a name="tema4"></a>Parte 4: ETL e Limpeza de Dados e Exportação  
-1. [Importação do segundo arquivo CSV](#tema4-topico1)
+1. [O que é ETL?](#tema4-topico1)
+2. [Importância do ETL](#tema4-topico2)
+<!-- 1. [Importação do segundo arquivo CSV](#tema4-topico1)
 2. [Limpeza de Dados e Transformação](#tema4-topico2)
    * [Identificação e remoção de duplicatas](#tema4-topico2-subtopico1)
    * [Uso de filtros para encontrar dados inconsistentes](#tema4-topico2-subtopico2)
-3. [Importação do segundo arquivo CSV](#tema4-topico3)
+3. [Importação do segundo arquivo CSV](#tema4-topico3) -->
 
 ### <a name="tema1"></a>Parte 1: Introdução e Importação de CSV  
 #### <a name="tema1-topico1"></a>Formato de Arquivo CSV  
 Um arquivo CSV (Comma-separated values) é um arquivo de texto com um formato específico que permite que dados sejam salvos no formato de uma **tabela estruturada**. Formato específico, pois usa vírgulas para separar valores e quebra de linha para separar linhas.  
-!!!
 
 #### <a name="tema1-topico2"></a>O que é Planilha?  
 - <u>Definição</u>: Uma Planilha (Eletrônica) é um programa/aplicação utilizado para processamento, organização, análise e armazenamento de dados em formato tabular (linhas e colunas). Cada célula pode conter dados numéricos ou textuais, ou o resultado de fórmulas/cálculos. Também chamamos de planilha o próprio documento que organiza os dados em tabelas formadas por linhas e colunas.  
@@ -180,12 +183,49 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempu
   **Nota**: `ÍNDICE` e `CORRESP` podem ser usados independentemente de onde o valor de pesquisa está localizado em relação ao atributo desejado a ser retornado.
 
 #### <a name="tema3-topico2"></a>Extra: Tabela Dinâmica  
-!!!
+##### <a name="tema3-topico2-subtopico1"></a>O que é uma Tabela Dinâmica?  
+Uma tabela dinâmica no Google Sheets é uma ferramenta poderosa para resumir, analisar, explorar e apresentar grandes conjuntos de dados. Ela permite que você organize e reorganize dados rapidamente para obter insights valiosos. Com uma tabela dinâmica, você pode transformar um conjunto extenso de dados em uma visão resumida e interativa que destaca tendências e padrões.
+
+##### <a name="tema3-topico2-subtopico2"></a>Importância das Tabelas Dinâmicas  
+* **Facilidade de Uso**: Tabelas dinâmicas são intuitivas e fáceis de usar, permitindo que usuários com pouco conhecimento técnico criem resumos complexos de dados.
+* **Flexibilidade**: Elas oferecem flexibilidade para alterar rapidamente a forma como os dados são agrupados e sumarizados, sem precisar modificar os dados originais.
+* **Eficiência**: Automatizam o processo de análise de dados, economizando tempo e esforço.
+* **Interatividade**: Permitem que os usuários interajam com os dados, explorando diferentes ângulos e detalhes sem precisar recriar a tabela.
+
+##### <a name="tema3-topico2-subtopico3"></a>Exemplo de aplicação das Tabelas Dinâmicas
+* **Análise de Vendas**: Resumir dados de vendas por produto, região, período ou vendedor para identificar tendências e tomar decisões informadas.
+
+📌 **Sugestão de Leitura**: [Criando uma tabela dinâmica no Google Sheets](https://kondado.com.br/blog/blog/2023/04/17/criando-uma-tabela-dinamica-no-google-sheets/)  
+📌 **Sugestão de Vídeo**: [Como criar Tabela Dinâmica no Google Planilhas](https://www.youtube.com/watch?v=QdW78AkPjG0)
 
 ### <a name="tema4"></a>Parte 4: ETL e Limpeza de Dados e Exportação 
-#### Topico4
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices.
+#### <a name="tema4-topico1"></a>O que é ETL?
+ETL é a sigla para Extract, Transform, Load (Extrair, Transformar, Carregar). É um processo fundamental na integração e preparação de dados para análises e relatórios em ambientes de business intelligence (BI) e data warehousing. Vamos detalhar cada etapa do processo:
 
+* **Extract (Extrair)**: Na fase de extração, os dados são retirados de diversas fontes. Essas fontes podem ser bancos de dados, arquivos planos (como CSV), APIs, sistemas legados, entre outros. A extração é crucial para garantir que os dados relevantes sejam capturados de maneira precisa e eficiente.  
+
+  Exemplos de fontes de dados:
+  * Bancos de dados SQL 
+  * Arquivos CSV, JSON, XML
+  * APIs de serviços web
+
+* **Transform (Transformar)**: A transformação é a etapa onde os dados extraídos são limpos, organizados e convertidos em um formato adequado para análise. Isso pode incluir a remoção de duplicatas, a correção de valores errados, a padronização de formatos de dados, a agregação de dados, a criação de novos atributos ou métricas, e a aplicação de regras de negócio.  
+
+  Tarefas comuns de transformação:
+  * Limpeza de dados (remoção de valores nulos, duplicados, correção de erros)
+  * Normalização de dados (padronização de formatos de data, moeda, etc.)
+  * Agregação de dados (cálculo de somas, médias, etc.)
+  * Transformação de dados (conversão de tipos de dados, cálculos derivados)
+
+* **Load (Carregar)**: Na fase de carregamento, os dados transformados são carregados em um destino, como um data warehouse, um data lake, ou outro sistema de armazenamento de dados. Esse destino é onde os dados ficam disponíveis para análise e geração de relatórios. O processo de carregamento deve ser eficiente para lidar com grandes volumes de dados e pode ser realizado de maneira incremental ou em batch (lote).  
+
+#### <a name="tema4-topico2"></a>Importância do ETL
+* **Integração de Dados**: ETL permite a integração de dados de várias fontes em um único repositório, facilitando a análise abrangente.
+* **Qualidade dos Dados**: A fase de transformação assegura que os dados sejam limpos e consistentes, melhorando a qualidade das análises.
+* **Eficiência Analítica**: Ao carregar dados em um formato adequado para análise, o ETL torna mais eficiente a geração de relatórios e insights de negócio.
+* **Automação**: Processos ETL automatizados garantem a atualização regular dos dados, mantendo a análise de dados atualizada.
+
+Em resumo, o ETL é um processo crucial para transformar dados brutos de várias fontes em informações úteis e integradas, prontas para análise e tomada de decisão.
 
 ***
 ### Exercícios 
@@ -194,15 +234,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempu
 * [Exercícios Extras](https://www.hashtagtreinamentos.com/exercicios-de-excel-2)
 
 ### Material da aula 
-
-### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-
+* [Planilha para cópia aqui!](https://docs.google.com/spreadsheets/d/1frE0FyyEdgyPXyk34iIeyRQqZUnKphlBHhxQ1ZjqTwY/copy)
+* [CSV para aula](https://github.com/reprograma/on34-python-s06-arquivos-pacotes-modulos/blob/main/material/notas_alunos.csv)
+* [Para criar uma planilha em branco clique aqui!](http://sheets.new/)
 
 <p align="center">
 Desenvolvido com :purple_heart:  
 </p>
-

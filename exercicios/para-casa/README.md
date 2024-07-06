@@ -1,10 +1,23 @@
 # Exercício de Casa 🏠 
 
-## Nome do Exercicio
+## Qual região trouxe mais dinheiro 💸 para minha loja?
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+- **Explicação do exercício**: Temos 2 CSVs diferentes contendo informações importantes sobre as vendas da nossa lojinha de produtos aleatórios.   
+**Queremos descobrir qual região do país trouxe mais dinheiro para nossa loja**, o objetivo? Investir em abrir mais filiais nessa região em específico.
+
+  - CSV 1: pessoas.csv
+  - CSV 2: compras_realizadas.csv 
+
+- 📌 Entregável: Vocês terão que entregar uma planilha que responda a esta pergunta.  
+
+- 📢 Dicas
+  - Os dados de ambos CSVs deverão ser cruzados por um ID comum;
+  - Fórmulas de Pesquisa podem ser úteis no cruzamento dos dados;
+  - Fiquem à vontade para utilizar visualizações para responder a nossa pergunta.
+
+- Links Extras:
+  - [Como Gerar Gráficos dentro das Planilhas Google](https://www.youtube.com/watch?v=wn2N1ZacIXo)
+  - [Tipos de gráfico no Planilhas Google](https://support.google.com/docs/answer/190718?hl=pt-BR)
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
@@ -16,3 +29,5 @@ Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo cert
 - [ ] Commitei a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
 - [ ] Pushei os commits na minha branch (`git push origin nome-da-branch`)
 - [ ] Criei um Pull Request seguindo as orientaçoes que estao nesse [documento](https://github.com/mflilian/repo-example/blob/main/exercicios/para-casa/instrucoes-pull-request.md).
+
+📌 **Observação**: Dessa vez como o entregável é uma planilha, podem baixá-la como um arquivo .xlsx (Planilha Excel) e se houver gráficos, baixe-o em formato de imagem, ou seja, baixe-o à parte da planilha.

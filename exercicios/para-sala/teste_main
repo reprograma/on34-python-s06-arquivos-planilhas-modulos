@@ -1,0 +1,7 @@
+import csv
+
+with open ('transformarT _ETL _maio_2024.csv', newline='', encoding='utf-8') as csvfile:
+    leitor = csv.reader (csvfile)
+    print (leitor)
+
+
